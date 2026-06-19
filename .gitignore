@@ -1,0 +1,26 @@
+.env
+*.env
+!.env.example
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+code/.cache/
+analysis_sheets/
+artifacts/generated/
+log.txt
+
+# Generated experiment CSVs. Keep the final submission output.csv and dataset CSVs.
+best_output.csv
+hybrid_output.csv
+calibrated_api_output.csv
+compare_*.csv
+notebook_*_output.csv
+notebook_sample_*.csv
+output_fallback.csv
+output_smoke.csv
+sample_api_predictions.csv
+sample_no_api_predictions.csv
+
+# Keep code.zip if you want a copy of the upload artifact.
+*.zip
+!code.zip
